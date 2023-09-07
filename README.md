@@ -27,12 +27,12 @@ $ python HSI_denoising.py
 
 <p align="center"><img src="assets/inpainting.png" width=70% /></p>
 
-<center>
+
 |      | 148089 | claire | PA    |
 | :--: | :----: | ------ | ----- |
 | PSNR | 23.96  | 41.05  | 33.78 |
 | SSIM | 0.761  | 0.990  | 0.962 |
-</center>
+
 
 ### Decloud
 
