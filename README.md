@@ -13,7 +13,7 @@ Please download our example datas from [this](https://drive.google.com/drive/fol
 
 Running by following script:
 
-```python
+```bash
 $ python RGB_inpainting.py
 $ python MC_inpainting.py
 $ python decloud.py
@@ -21,7 +21,7 @@ $ python video_denoising.py
 $ python HSI_denoising.py
 ```
 
-## Reference results
+## Reference Results
 
 ### Inpainting
 
