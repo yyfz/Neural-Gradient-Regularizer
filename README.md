@@ -1,7 +1,7 @@
 # Neural-Gradient-Regularizer
 This repository contains official implementation of **N**eural **G**radient **R**egularizer (NGR). [[paper]](https://arxiv.org/abs/2308.16612)
 
-<p align="center"><img src="assets/toc2.jpg" width=120% /></p>
+<p align="center"><img src="assets/toc2.jpg" width=100% /></p>
 
 Owing to its significant success, the prior imposed on gradient maps has consistently been a subject of great interest in the field of image processing. Total variation (TV), one of the most representative regularizers, is known for its ability to capture the sparsity of gradient maps. Nonetheless, TV and its variants often underestimate the gradient maps, leading to the weakening of edges and details whose gradients should not be zero in the original image. Recently, total deep variation (TDV) has been introduced, assuming the sparsity of feature maps, which provides a flexible regularization learned from large-scale datasets for a specific task. However, TDV requires retraining when the image or task changes, limiting its versatility. In this paper, we propose a neural gradient regularizer (NGR) that expresses the gradient map as the output of a neural network. Unlike existing methods, NGR does not rely on the sparsity assumption, thereby avoiding the underestimation of gradient maps. NGR is applicable to various image types and different image processing tasks, functioning in a zero-shot learning fashion, making it a versatile and plug-and-play regularizer. Extensive experimental results demonstrate the superior performance of NGR over state-of-the-art counterparts for a range of different tasks, further validating its effectiveness and versatility.
 
@@ -25,7 +25,7 @@ $ python HSI_denoising.py
 
 ### Inpainting
 
-<p align="center"><img src="assets/inpainting.png" width=100% /></p>
+<p align="center"><img src="assets/inpainting.png" width=70% /></p>
 
 |      | 148089 | claire | PA    |
 | :--: | :----: | ------ | ----- |
