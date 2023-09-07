@@ -27,25 +27,31 @@ $ python HSI_denoising.py
 
 <p align="center"><img src="assets/inpainting.png" width=70% /></p>
 
+<div class="center">
 |      | 148089 | claire | PA    |
 | :--: | :----: | ------ | ----- |
 | PSNR | 23.96  | 41.05  | 33.78 |
 | SSIM | 0.761  | 0.990  | 0.962 |
+</div>
 
 ### Decloud
 
 <p align="center"><img src="assets/decloud.png" width=70% /></p>
 
+<div class="center">
 |      | Forish Mountain |
 | :--: | :-------------: |
 | PSNR |      35.98      |
 | SSIM |      0.933      |
+</div>
 
 ### Denoising
 
 <p align="center"><img src="assets/denoising.png" width=70% /></p>
 
+<div class="center">
 |      | WDC   | akiyo |
 | ---- | ----- | ----- |
 | PSNR | 27.66 | 35.86 |
 | SSIM | 0.837 | 0.967 |
+</div>
