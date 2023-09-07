@@ -25,7 +25,7 @@ $ python HSI_denoising.py
 
 ### Inpainting
 
-<p align="center"><img src="assets/inpainting.png" width=70% /></p>
+<p align="center"><img src="assets/inpainting.png" width=100% /></p>
 
 |      | 148089 | claire | PA    |
 | :--: | :----: | ------ | ----- |
