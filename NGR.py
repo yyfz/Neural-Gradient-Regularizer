@@ -57,8 +57,7 @@ class NGR_net(nn.Module):
 
 class NGR(BasicModel):
     def __init__(self, obs, gt, **kwargs):
-        super().__init__(obs, gt, **kwargs)
-        self.method_name = 'NGR'
+        super().__init__(obs, gt, method_name='NGR', **kwargs)
         params = kwargs.get('params')
 
         C, H, W = self.noisy.shape
